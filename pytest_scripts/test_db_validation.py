@@ -18,5 +18,6 @@ def test_record_count():
 
     conn.close()
     ##Just adding for ci validation yyy uuu aa
+    ## Just adding for ci validation yyy uuu aa
 
     assert source_count == target_count
