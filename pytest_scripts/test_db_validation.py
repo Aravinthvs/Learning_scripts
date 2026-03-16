@@ -17,5 +17,6 @@ def test_record_count():
     target_count = cursor.fetchone()[0]
 
     conn.close()
+    ##Just adding for ci validation
 
     assert source_count == target_count
